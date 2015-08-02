@@ -60,7 +60,7 @@
 		695272C41B6E7974008F88A8 = {
 			isa = PBXGroup;
 			children = (
-				695272D01B6E7974008F88A8 /* MBLogger */,
+				695272D01B6E7974008F88A8 /* Source */,
 				695272DD1B6E7974008F88A8 /* MBLoggerTests */,
 				695272CF1B6E7974008F88A8 /* Products */,
 				EC7788C80D33FFCACCE23567 /* Pods */,
@@ -77,14 +77,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		695272D01B6E7974008F88A8 /* MBLogger */ = {
+		695272D01B6E7974008F88A8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				695272D31B6E7974008F88A8 /* MBLogger.h */,
 				695272EA1B6E7A6C008F88A8 /* MBLogger.swift */,
 				695272D11B6E7974008F88A8 /* Supporting Files */,
 			);
-			path = MBLogger;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		695272D11B6E7974008F88A8 /* Supporting Files */ = {
@@ -392,7 +392,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MBLogger/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +410,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MBLogger/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
