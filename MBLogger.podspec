@@ -1,19 +1,27 @@
 Pod::Spec.new do |s|
 
-    s.name = 'MBLogger'
-    s.version = '1.0.0'
-    s.license = 'MIT'
-    s.summary = 'Logging tool made by Mobilette'
-    s.homepage = 'https://github.com/Mobilette/MBLogger'
-    s.authors = { 'Romain ASNAR' => 'romain.asnar@mobilette.io' }
-    s.source = { :git => 'https://github.com/Mobilette/MBLogger.git', :tag => s.version }
+  s.name         = "MBLogger"
+  s.version      = "1.0.0"
+  s.summary      = "Logging tool made by Mobilette."
 
-    s.ios.deployment_target = '8.0'
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
-    s.source_files = 'Source/*.swift'
+  s.author       = { "Romain Asnar" => "romain.asnar@gmail.com" }
 
-    s.dependency 'NSLogger'
+  s.homepage     = "https://github.com/Mobilette/MBLogger"
 
-    s.requires_arc = true
+  s.platform     = :ios
+  s.platform     = :ios, "8.0"
+
+  s.source       = { :git => "https://github.com/Mobilette/MBLogger.git", :tag => s.version }
+
+
+  s.source_files = "Source/*.swift"
+
+  s.framework    = "UIKit"
+
+  s.requires_arc = true
+
+  s.dependency 'NSLogger'
 
 end
