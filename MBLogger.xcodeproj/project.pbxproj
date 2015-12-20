@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D87686C98388F2C7C114A31 /* Pods_MBLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3C0C6182DD482009060CF1 /* Pods_MBLogger.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5D87686C98388F2C7C114A31 /* Pods_MBLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3C0C6182DD482009060CF1 /* Pods_MBLogger.framework */; };
 		695272D41B6E7974008F88A8 /* MBLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 695272D31B6E7974008F88A8 /* MBLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		695272DA1B6E7974008F88A8 /* MBLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695272CE1B6E7974008F88A8 /* MBLogger.framework */; };
 		695272E11B6E7974008F88A8 /* MBLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695272E01B6E7974008F88A8 /* MBLoggerTests.swift */; };
@@ -187,6 +187,8 @@
 		695272C51B6E7974008F88A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Mobilette;
 				TargetAttributes = {

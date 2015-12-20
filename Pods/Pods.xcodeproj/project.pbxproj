@@ -7,310 +7,308 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A1419684C7B4C06736B49B7 /* LoggerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF89C1DC66FBB66E961B5E9 /* LoggerCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21130C064EA355192B0D7BB5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A07A4D5E8F0DF736A045B5B /* CFNetwork.framework */; };
-		2BAED94C08C00B774C8B2293 /* NSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D2DAD0160FF5E837984123 /* NSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3ABC13EC0E22BC1C5F2D7758 /* Pods-MBLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 247AFDF8AB2BAB133E03D715 /* Pods-MBLogger-dummy.m */; };
-		4CFA2D6DBAC1DAEE1EEAFB9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0973866EDBF23F132816539E /* Foundation.framework */; };
-		5760C42CE067E6B30892E388 /* Pods-MBLogger-NSLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7663A0BE8968C84220B01F2 /* Pods-MBLogger-NSLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57F9793F69712D5D7B67596B /* Pods-MBLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A4D7B07A90C1FB7CA711B6 /* Pods-MBLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B60E71865173037C92F3EE9 /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AA5504D789E02A8862C69C /* LoggerClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5D34754683C3516FCAFFFA6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0973866EDBF23F132816539E /* Foundation.framework */; };
-		6ED1924A8276CE8B98750671 /* LoggerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA3EE58EECB69320F3588F0 /* LoggerClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A30FB45A240F807B99824E8F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D36E80B5A8D01F7F2E0B9DB /* SystemConfiguration.framework */; };
-		B36784F20D9400F3B0B94482 /* Pods-MBLogger-NSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 381BF67223550661F0C42F5A /* Pods-MBLogger-NSLogger-dummy.m */; };
+		377B776621785D2A9ACD3E66549E94AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C58468603194E26F40D1174F2D181A /* Foundation.framework */; };
+		58DE41E48390B07A2184590A563A0CEB /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD4181BE242157D955A79F9C3CB6E59 /* LoggerClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6471EFBE3B1FF91A4C0F7F4723A9569B /* Pods-MBLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9A2F404461440FA4D401037FD12681 /* Pods-MBLogger-dummy.m */; };
+		85C37585192E5901A5BF770B69F4E80C /* LoggerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EB498641DDEE582AD3A2F6A48F72FE85 /* LoggerClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		860740DF5BEB98EC9718835A7E300EAA /* NSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C5A75861086A4CC53E30721936CBC3 /* NSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A7E7A5CDFADC63B05975142E67CB434 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBAB17FEFEEBCBA422CB0B29DA26CAF /* SystemConfiguration.framework */; };
+		96BBFE1BF13746FDFCBCE67E02095DBE /* LoggerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 223D4BDD2F4B55AFBACF9792306E2659 /* LoggerCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC98E3B30485561811511E3052E9DAE9 /* NSLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF0E2D44DA3C5DD2896DF449CCFAEC6 /* NSLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEA66D3E9BE25EC6BC00907E241D0D5D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679D7191D146088C39F0C0E60C7E08FD /* CFNetwork.framework */; };
+		E1282F0F438D0DE7FF645A7A7D664B9B /* Pods-MBLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D2535626F123BAA58CECAD0C5CFF971 /* Pods-MBLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBD260FC53CA8F2E1DD882E6CE692262 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C58468603194E26F40D1174F2D181A /* Foundation.framework */; };
+		FF9EA7B180C4FEE0CEA1283221FF9635 /* NSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA6532D0D89499228E3EB9DEB4FAD0A /* NSLogger-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3C92470417DB8278475966EE /* PBXContainerItemProxy */ = {
+		D439798933303C2A6B3487BA78A34DE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0C460CD0D388C6FF2F5B98AF /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5E2258CD84C641CF4BA25B7C;
-			remoteInfo = "Pods-MBLogger-NSLogger";
+			remoteGlobalIDString = FE21BE8BD1A42D5DA533C380E18F4B4A;
+			remoteInfo = NSLogger;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06C84FF90BB36AA48627DECB /* Pods-MBLogger-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBLogger-resources.sh"; sourceTree = "<group>"; };
-		0900C4F88B24478E892BD6F3 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0973866EDBF23F132816539E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		0EE3C34995BCF460807F7F58 /* Pods-MBLogger-NSLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBLogger-NSLogger-prefix.pch"; sourceTree = "<group>"; };
-		13AA5504D789E02A8862C69C /* LoggerClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoggerClient.m; path = "Client Logger/iOS/LoggerClient.m"; sourceTree = "<group>"; };
-		247AFDF8AB2BAB133E03D715 /* Pods-MBLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBLogger-dummy.m"; sourceTree = "<group>"; };
-		24C9C8A19D6B61C13D71D368 /* Pods-MBLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MBLogger.modulemap"; sourceTree = "<group>"; };
-		258C0F7CEC766243BF0FAF19 /* Pods-MBLogger-NSLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MBLogger-NSLogger.modulemap"; sourceTree = "<group>"; };
-		2EDC448AB52810C1B19500C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		381BF67223550661F0C42F5A /* Pods-MBLogger-NSLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBLogger-NSLogger-dummy.m"; sourceTree = "<group>"; };
-		3B3DB8CEA646D424EB32108F /* Pods-MBLogger-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBLogger-acknowledgements.plist"; sourceTree = "<group>"; };
-		417C257C13EA4AE47948C4C9 /* Pods-MBLogger-NSLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBLogger-NSLogger.xcconfig"; sourceTree = "<group>"; };
-		464E11841A8482C1031C39DC /* Pods-MBLogger-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBLogger-frameworks.sh"; sourceTree = "<group>"; };
-		4A07A4D5E8F0DF736A045B5B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		4D36E80B5A8D01F7F2E0B9DB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		6CD888F7189BBF19CEA16E11 /* Pods-MBLogger-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBLogger-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F59243A50B6D39D05B9C785 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79A4D7B07A90C1FB7CA711B6 /* Pods-MBLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBLogger-umbrella.h"; sourceTree = "<group>"; };
-		7ABA4F19A8D7062A0C41F807 /* Pods-MBLogger-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBLogger-environment.h"; sourceTree = "<group>"; };
-		93A029703939883CEBF49D1C /* Pods-MBLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBLogger.release.xcconfig"; sourceTree = "<group>"; };
-		9BA52C111A4C78918FA2B07C /* NSLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EA3EE58EECB69320F3588F0 /* LoggerClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerClient.h; path = "Client Logger/iOS/LoggerClient.h"; sourceTree = "<group>"; };
-		9FFB8E85941205079B0B1CF8 /* Pods-MBLogger-NSLogger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBLogger-NSLogger-Private.xcconfig"; sourceTree = "<group>"; };
-		B72DBEB3A2D26D0FAEFE4743 /* Pods_MBLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7663A0BE8968C84220B01F2 /* Pods-MBLogger-NSLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBLogger-NSLogger-umbrella.h"; sourceTree = "<group>"; };
-		CB04638320C368722C992D74 /* Pods-MBLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBLogger.debug.xcconfig"; sourceTree = "<group>"; };
-		DFF89C1DC66FBB66E961B5E9 /* LoggerCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerCommon.h; path = "Client Logger/iOS/LoggerCommon.h"; sourceTree = "<group>"; };
-		E0D2DAD0160FF5E837984123 /* NSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLogger.h; path = "Client Logger/iOS/NSLogger.h"; sourceTree = "<group>"; };
+		015F3E17AB9A75EBD86CBF20D16AAA23 /* NSLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		045EBFAB36A5EF94678E0C45AF067312 /* Pods_MBLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05445D3A4D6C5B341565CD36EF062099 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169AC3DFCE701F64203BD69606CFE432 /* Pods-MBLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBLogger.release.xcconfig"; sourceTree = "<group>"; };
+		223D4BDD2F4B55AFBACF9792306E2659 /* LoggerCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerCommon.h; path = "Client Logger/iOS/LoggerCommon.h"; sourceTree = "<group>"; };
+		303566A1D7C0AB59BFFBC4D3DF79AFD7 /* NSLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLogger-prefix.pch"; sourceTree = "<group>"; };
+		4424B5A21DD9F915C024530D80BFED8C /* Pods-MBLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MBLogger.modulemap"; sourceTree = "<group>"; };
+		4FA6532D0D89499228E3EB9DEB4FAD0A /* NSLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLogger-dummy.m"; sourceTree = "<group>"; };
+		5B9A2F404461440FA4D401037FD12681 /* Pods-MBLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBLogger-dummy.m"; sourceTree = "<group>"; };
+		679D7191D146088C39F0C0E60C7E08FD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		6D2535626F123BAA58CECAD0C5CFF971 /* Pods-MBLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBLogger-umbrella.h"; sourceTree = "<group>"; };
+		70E12D015BFE58DE72CB8ABB29B51ED0 /* NSLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSLogger.xcconfig; sourceTree = "<group>"; };
+		72C5A75861086A4CC53E30721936CBC3 /* NSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLogger.h; path = "Client Logger/iOS/NSLogger.h"; sourceTree = "<group>"; };
+		79B80B3EB1FEA05A1836814A64DE09DA /* Pods-MBLogger-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBLogger-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92C58468603194E26F40D1174F2D181A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9ADB1AB7C2162E44411B6DD166F3BFFA /* Pods-MBLogger-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBLogger-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B5DD8FF0A3CD72A93EA220A664886E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FBAB17FEFEEBCBA422CB0B29DA26CAF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF294FA48D56241F4425326AF6F32852 /* Pods-MBLogger-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBLogger-resources.sh"; sourceTree = "<group>"; };
+		C378C6733793844C59B65D9561FB9D0A /* Pods-MBLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBLogger.debug.xcconfig"; sourceTree = "<group>"; };
+		E95396F7A5DC9119E0617A5F2239A40C /* Pods-MBLogger-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBLogger-frameworks.sh"; sourceTree = "<group>"; };
+		EB498641DDEE582AD3A2F6A48F72FE85 /* LoggerClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerClient.h; path = "Client Logger/iOS/LoggerClient.h"; sourceTree = "<group>"; };
+		EFF0E2D44DA3C5DD2896DF449CCFAEC6 /* NSLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLogger-umbrella.h"; sourceTree = "<group>"; };
+		F97261FD20B67918DDB2CBFE1CD2A5C4 /* NSLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NSLogger.modulemap; sourceTree = "<group>"; };
+		FFD4181BE242157D955A79F9C3CB6E59 /* LoggerClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoggerClient.m; path = "Client Logger/iOS/LoggerClient.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		448BC1028BF573D71EA971BF /* Frameworks */ = {
+		87C89D518468866E49E646CF8922B4F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21130C064EA355192B0D7BB5 /* CFNetwork.framework in Frameworks */,
-				4CFA2D6DBAC1DAEE1EEAFB9D /* Foundation.framework in Frameworks */,
-				A30FB45A240F807B99824E8F /* SystemConfiguration.framework in Frameworks */,
+				CEA66D3E9BE25EC6BC00907E241D0D5D /* CFNetwork.framework in Frameworks */,
+				EBD260FC53CA8F2E1DD882E6CE692262 /* Foundation.framework in Frameworks */,
+				8A7E7A5CDFADC63B05975142E67CB434 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BC8651FAF6A82654C29686B /* Frameworks */ = {
+		BC488CD7311A851CC9D488BAAEED1AE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D34754683C3516FCAFFFA6B /* Foundation.framework in Frameworks */,
+				377B776621785D2A9ACD3E66549E94AE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21A7C535CD3A06DA8E23329B = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0900C4F88B24478E892BD6F3 /* Podfile */,
-				C4004B13681DA71EA53DB149 /* Frameworks */,
-				6AA9919501588CFBF8A69B25 /* Pods */,
-				477BD96C42656B6DD481FEAA /* Products */,
-				8F55436409F01693A7695284 /* Targets Support Files */,
+				C97B2DF301DFE6C32777CB7BF7D34ADD /* iOS */,
 			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		477BD96C42656B6DD481FEAA /* Products */ = {
+		4BEA541D1037D7163DBCCB5B16C96F75 /* Pods-MBLogger */ = {
 			isa = PBXGroup;
 			children = (
-				9BA52C111A4C78918FA2B07C /* NSLogger.framework */,
-				B72DBEB3A2D26D0FAEFE4743 /* Pods_MBLogger.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		576CFF496F7F449FA3993B23 /* Pods-MBLogger */ = {
-			isa = PBXGroup;
-			children = (
-				2EDC448AB52810C1B19500C4 /* Info.plist */,
-				24C9C8A19D6B61C13D71D368 /* Pods-MBLogger.modulemap */,
-				6CD888F7189BBF19CEA16E11 /* Pods-MBLogger-acknowledgements.markdown */,
-				3B3DB8CEA646D424EB32108F /* Pods-MBLogger-acknowledgements.plist */,
-				247AFDF8AB2BAB133E03D715 /* Pods-MBLogger-dummy.m */,
-				7ABA4F19A8D7062A0C41F807 /* Pods-MBLogger-environment.h */,
-				464E11841A8482C1031C39DC /* Pods-MBLogger-frameworks.sh */,
-				06C84FF90BB36AA48627DECB /* Pods-MBLogger-resources.sh */,
-				79A4D7B07A90C1FB7CA711B6 /* Pods-MBLogger-umbrella.h */,
-				CB04638320C368722C992D74 /* Pods-MBLogger.debug.xcconfig */,
-				93A029703939883CEBF49D1C /* Pods-MBLogger.release.xcconfig */,
+				9B5DD8FF0A3CD72A93EA220A664886E7 /* Info.plist */,
+				4424B5A21DD9F915C024530D80BFED8C /* Pods-MBLogger.modulemap */,
+				79B80B3EB1FEA05A1836814A64DE09DA /* Pods-MBLogger-acknowledgements.markdown */,
+				9ADB1AB7C2162E44411B6DD166F3BFFA /* Pods-MBLogger-acknowledgements.plist */,
+				5B9A2F404461440FA4D401037FD12681 /* Pods-MBLogger-dummy.m */,
+				E95396F7A5DC9119E0617A5F2239A40C /* Pods-MBLogger-frameworks.sh */,
+				BF294FA48D56241F4425326AF6F32852 /* Pods-MBLogger-resources.sh */,
+				6D2535626F123BAA58CECAD0C5CFF971 /* Pods-MBLogger-umbrella.h */,
+				C378C6733793844C59B65D9561FB9D0A /* Pods-MBLogger.debug.xcconfig */,
+				169AC3DFCE701F64203BD69606CFE432 /* Pods-MBLogger.release.xcconfig */,
 			);
 			name = "Pods-MBLogger";
 			path = "Target Support Files/Pods-MBLogger";
 			sourceTree = "<group>";
 		};
-		6AA9919501588CFBF8A69B25 /* Pods */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				E40853183F9CDE936AC0BA67 /* NSLogger */,
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				9F5208F1E5613BDFA67AAE07CD8DC066 /* Pods */,
+				99C06B62F371004C05DC2A4EEB4226A8 /* Products */,
+				92A8A9146C11CE67AEB6FFA8F8078C9D /* Targets Support Files */,
 			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
-		8F55436409F01693A7695284 /* Targets Support Files */ = {
+		92A8A9146C11CE67AEB6FFA8F8078C9D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				576CFF496F7F449FA3993B23 /* Pods-MBLogger */,
+				4BEA541D1037D7163DBCCB5B16C96F75 /* Pods-MBLogger */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C22D3F4360078D16802CAC96 /* Standard */ = {
+		99C06B62F371004C05DC2A4EEB4226A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EA3EE58EECB69320F3588F0 /* LoggerClient.h */,
-				13AA5504D789E02A8862C69C /* LoggerClient.m */,
-				DFF89C1DC66FBB66E961B5E9 /* LoggerCommon.h */,
-				E0D2DAD0160FF5E837984123 /* NSLogger.h */,
+				015F3E17AB9A75EBD86CBF20D16AAA23 /* NSLogger.framework */,
+				045EBFAB36A5EF94678E0C45AF067312 /* Pods_MBLogger.framework */,
 			);
-			name = Standard;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		C4004B13681DA71EA53DB149 /* Frameworks */ = {
+		9F5208F1E5613BDFA67AAE07CD8DC066 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CE6B988066600FD1505BED54 /* iOS */,
+				E7521DF9D2093EC673CFC72D9D9A5AFD /* NSLogger */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		CE6B988066600FD1505BED54 /* iOS */ = {
+		BF5FEF77004954A77E7FACE3A17DDA53 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A07A4D5E8F0DF736A045B5B /* CFNetwork.framework */,
-				0973866EDBF23F132816539E /* Foundation.framework */,
-				4D36E80B5A8D01F7F2E0B9DB /* SystemConfiguration.framework */,
+				05445D3A4D6C5B341565CD36EF062099 /* Info.plist */,
+				F97261FD20B67918DDB2CBFE1CD2A5C4 /* NSLogger.modulemap */,
+				70E12D015BFE58DE72CB8ABB29B51ED0 /* NSLogger.xcconfig */,
+				4FA6532D0D89499228E3EB9DEB4FAD0A /* NSLogger-dummy.m */,
+				303566A1D7C0AB59BFFBC4D3DF79AFD7 /* NSLogger-prefix.pch */,
+				EFF0E2D44DA3C5DD2896DF449CCFAEC6 /* NSLogger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NSLogger";
+			sourceTree = "<group>";
+		};
+		C97B2DF301DFE6C32777CB7BF7D34ADD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				679D7191D146088C39F0C0E60C7E08FD /* CFNetwork.framework */,
+				92C58468603194E26F40D1174F2D181A /* Foundation.framework */,
+				9FBAB17FEFEEBCBA422CB0B29DA26CAF /* SystemConfiguration.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E40853183F9CDE936AC0BA67 /* NSLogger */ = {
+		E32DBFBDD00EFF4863F3FD40A8A863E2 /* Standard */ = {
 			isa = PBXGroup;
 			children = (
-				C22D3F4360078D16802CAC96 /* Standard */,
-				F073557D3BC6063ABD3C0F54 /* Support Files */,
+				EB498641DDEE582AD3A2F6A48F72FE85 /* LoggerClient.h */,
+				FFD4181BE242157D955A79F9C3CB6E59 /* LoggerClient.m */,
+				223D4BDD2F4B55AFBACF9792306E2659 /* LoggerCommon.h */,
+				72C5A75861086A4CC53E30721936CBC3 /* NSLogger.h */,
 			);
-			path = NSLogger;
+			name = Standard;
 			sourceTree = "<group>";
 		};
-		F073557D3BC6063ABD3C0F54 /* Support Files */ = {
+		E7521DF9D2093EC673CFC72D9D9A5AFD /* NSLogger */ = {
 			isa = PBXGroup;
 			children = (
-				6F59243A50B6D39D05B9C785 /* Info.plist */,
-				258C0F7CEC766243BF0FAF19 /* Pods-MBLogger-NSLogger.modulemap */,
-				417C257C13EA4AE47948C4C9 /* Pods-MBLogger-NSLogger.xcconfig */,
-				9FFB8E85941205079B0B1CF8 /* Pods-MBLogger-NSLogger-Private.xcconfig */,
-				381BF67223550661F0C42F5A /* Pods-MBLogger-NSLogger-dummy.m */,
-				0EE3C34995BCF460807F7F58 /* Pods-MBLogger-NSLogger-prefix.pch */,
-				B7663A0BE8968C84220B01F2 /* Pods-MBLogger-NSLogger-umbrella.h */,
+				E32DBFBDD00EFF4863F3FD40A8A863E2 /* Standard */,
+				BF5FEF77004954A77E7FACE3A17DDA53 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-MBLogger-NSLogger";
+			path = NSLogger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C8F57B1DD7E0E1D5EC1FB250 /* Headers */ = {
+		156F97E460EFCFA0F1AA2E707014119B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ED1924A8276CE8B98750671 /* LoggerClient.h in Headers */,
-				1A1419684C7B4C06736B49B7 /* LoggerCommon.h in Headers */,
-				2BAED94C08C00B774C8B2293 /* NSLogger.h in Headers */,
-				5760C42CE067E6B30892E388 /* Pods-MBLogger-NSLogger-umbrella.h in Headers */,
+				85C37585192E5901A5BF770B69F4E80C /* LoggerClient.h in Headers */,
+				96BBFE1BF13746FDFCBCE67E02095DBE /* LoggerCommon.h in Headers */,
+				CC98E3B30485561811511E3052E9DAE9 /* NSLogger-umbrella.h in Headers */,
+				860740DF5BEB98EC9718835A7E300EAA /* NSLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E47A8BC4B621AA36CC32A6ED /* Headers */ = {
+		42C47034C19703E5120BCE638D9F7F4F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57F9793F69712D5D7B67596B /* Pods-MBLogger-umbrella.h in Headers */,
+				E1282F0F438D0DE7FF645A7A7D664B9B /* Pods-MBLogger-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5E2258CD84C641CF4BA25B7C /* Pods-MBLogger-NSLogger */ = {
+		D26E62333245267CEBD0CE7F68EE2EAE /* Pods-MBLogger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DF368B64715492E55A4F0DA /* Build configuration list for PBXNativeTarget "Pods-MBLogger-NSLogger" */;
+			buildConfigurationList = 34A8780520386C7FF02FC338723B1DA4 /* Build configuration list for PBXNativeTarget "Pods-MBLogger" */;
 			buildPhases = (
-				0D272873BFB021E8264878C4 /* Sources */,
-				448BC1028BF573D71EA971BF /* Frameworks */,
-				C8F57B1DD7E0E1D5EC1FB250 /* Headers */,
+				9A19F8B4E3A25284EC5B2A63A941F9B0 /* Sources */,
+				BC488CD7311A851CC9D488BAAEED1AE6 /* Frameworks */,
+				42C47034C19703E5120BCE638D9F7F4F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-MBLogger-NSLogger";
-			productName = "Pods-MBLogger-NSLogger";
-			productReference = 9BA52C111A4C78918FA2B07C /* NSLogger.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FA883B8886F04F5BD544F040 /* Pods-MBLogger */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 45085530ED612DA2F3D103FB /* Build configuration list for PBXNativeTarget "Pods-MBLogger" */;
-			buildPhases = (
-				8501FD54BBA6B4B2C5D7BBF5 /* Sources */,
-				4BC8651FAF6A82654C29686B /* Frameworks */,
-				E47A8BC4B621AA36CC32A6ED /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B46C0973F4CE73641AE79CAE /* PBXTargetDependency */,
+				2A565F174B50D9DFC2139B0475A57C60 /* PBXTargetDependency */,
 			);
 			name = "Pods-MBLogger";
 			productName = "Pods-MBLogger";
-			productReference = B72DBEB3A2D26D0FAEFE4743 /* Pods_MBLogger.framework */;
+			productReference = 045EBFAB36A5EF94678E0C45AF067312 /* Pods_MBLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE21BE8BD1A42D5DA533C380E18F4B4A /* NSLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2677C068B4A32EBEAABA8D2D9075AA /* Build configuration list for PBXNativeTarget "NSLogger" */;
+			buildPhases = (
+				ABB0F257DB4E86166300719DC36F1059 /* Sources */,
+				87C89D518468866E49E646CF8922B4F5 /* Frameworks */,
+				156F97E460EFCFA0F1AA2E707014119B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSLogger;
+			productName = NSLogger;
+			productReference = 015F3E17AB9A75EBD86CBF20D16AAA23 /* NSLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0C460CD0D388C6FF2F5B98AF /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = A0ACDF79939048B428AEB22D /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 21A7C535CD3A06DA8E23329B;
-			productRefGroup = 477BD96C42656B6DD481FEAA /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 99C06B62F371004C05DC2A4EEB4226A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA883B8886F04F5BD544F040 /* Pods-MBLogger */,
-				5E2258CD84C641CF4BA25B7C /* Pods-MBLogger-NSLogger */,
+				FE21BE8BD1A42D5DA533C380E18F4B4A /* NSLogger */,
+				D26E62333245267CEBD0CE7F68EE2EAE /* Pods-MBLogger */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0D272873BFB021E8264878C4 /* Sources */ = {
+		9A19F8B4E3A25284EC5B2A63A941F9B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B60E71865173037C92F3EE9 /* LoggerClient.m in Sources */,
-				B36784F20D9400F3B0B94482 /* Pods-MBLogger-NSLogger-dummy.m in Sources */,
+				6471EFBE3B1FF91A4C0F7F4723A9569B /* Pods-MBLogger-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8501FD54BBA6B4B2C5D7BBF5 /* Sources */ = {
+		ABB0F257DB4E86166300719DC36F1059 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ABC13EC0E22BC1C5F2D7758 /* Pods-MBLogger-dummy.m in Sources */,
+				58DE41E48390B07A2184590A563A0CEB /* LoggerClient.m in Sources */,
+				FF9EA7B180C4FEE0CEA1283221FF9635 /* NSLogger-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B46C0973F4CE73641AE79CAE /* PBXTargetDependency */ = {
+		2A565F174B50D9DFC2139B0475A57C60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-MBLogger-NSLogger";
-			target = 5E2258CD84C641CF4BA25B7C /* Pods-MBLogger-NSLogger */;
-			targetProxy = 3C92470417DB8278475966EE /* PBXContainerItemProxy */;
+			name = NSLogger;
+			target = FE21BE8BD1A42D5DA533C380E18F4B4A /* NSLogger */;
+			targetProxy = D439798933303C2A6B3487BA78A34DE4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3598D81D405D2BB255FE6166 /* Debug */ = {
+		0693A68F761A3F711E57437402FE48D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FFB8E85941205079B0B1CF8 /* Pods-MBLogger-NSLogger-Private.xcconfig */;
+			baseConfigurationReference = 70E12D015BFE58DE72CB8ABB29B51ED0 /* NSLogger.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -319,12 +317,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-MBLogger-NSLogger/Pods-MBLogger-NSLogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-MBLogger-NSLogger/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/NSLogger/NSLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSLogger/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MBLogger-NSLogger/Pods-MBLogger-NSLogger.modulemap";
+				MODULEMAP_FILE = "Target Support Files/NSLogger/NSLogger.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = NSLogger;
 				SDKROOT = iphoneos;
@@ -335,9 +333,9 @@
 			};
 			name = Debug;
 		};
-		387FBB00BE23A227044D4619 /* Debug */ = {
+		35C69B5369740A7FD9D5AAEE1751BF0B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB04638320C368722C992D74 /* Pods-MBLogger.debug.xcconfig */;
+			baseConfigurationReference = C378C6733793844C59B65D9561FB9D0A /* Pods-MBLogger.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -350,6 +348,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MBLogger/Pods-MBLogger.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -364,7 +363,34 @@
 			};
 			name = Debug;
 		};
-		87FEF7FA78C4BD37875ABB52 /* Debug */ = {
+		6165B5D769B2BA9409AA23C274D626C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E12D015BFE58DE72CB8ABB29B51ED0 /* NSLogger.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSLogger/NSLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSLogger/NSLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NSLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -403,7 +429,37 @@
 			};
 			name = Debug;
 		};
-		AB411AE28B2B08482CC8EC6B /* Release */ = {
+		E29C4B6E064EA9EEF1F53998F74BD9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169AC3DFCE701F64203BD69606CFE432 /* Pods-MBLogger.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MBLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MBLogger/Pods-MBLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MBLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -437,93 +493,37 @@
 			};
 			name = Release;
 		};
-		E545602E22E5750E6D1B5D82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93A029703939883CEBF49D1C /* Pods-MBLogger.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MBLogger/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MBLogger/Pods-MBLogger.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MBLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E9F771894B1BA9FDACD7B8AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FFB8E85941205079B0B1CF8 /* Pods-MBLogger-NSLogger-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-MBLogger-NSLogger/Pods-MBLogger-NSLogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-MBLogger-NSLogger/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MBLogger-NSLogger/Pods-MBLogger-NSLogger.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = NSLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		45085530ED612DA2F3D103FB /* Build configuration list for PBXNativeTarget "Pods-MBLogger" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				387FBB00BE23A227044D4619 /* Debug */,
-				E545602E22E5750E6D1B5D82 /* Release */,
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DF368B64715492E55A4F0DA /* Build configuration list for PBXNativeTarget "Pods-MBLogger-NSLogger" */ = {
+		34A8780520386C7FF02FC338723B1DA4 /* Build configuration list for PBXNativeTarget "Pods-MBLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3598D81D405D2BB255FE6166 /* Debug */,
-				E9F771894B1BA9FDACD7B8AE /* Release */,
+				35C69B5369740A7FD9D5AAEE1751BF0B /* Debug */,
+				E29C4B6E064EA9EEF1F53998F74BD9A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0ACDF79939048B428AEB22D /* Build configuration list for PBXProject "Pods" */ = {
+		DC2677C068B4A32EBEAABA8D2D9075AA /* Build configuration list for PBXNativeTarget "NSLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87FEF7FA78C4BD37875ABB52 /* Debug */,
-				AB411AE28B2B08482CC8EC6B /* Release */,
+				0693A68F761A3F711E57437402FE48D9 /* Debug */,
+				6165B5D769B2BA9409AA23C274D626C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0C460CD0D388C6FF2F5B98AF /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }

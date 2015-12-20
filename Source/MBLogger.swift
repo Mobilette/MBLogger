@@ -227,7 +227,7 @@ public final class MBLog
     // MARK: - Logger
     
     private class func logger(
-        #domain: String,
+        domain domain: String,
         level: Int,
         object: NSData,
         fileName: String = __FILE__,
@@ -239,7 +239,7 @@ public final class MBLog
     }
     
     private class func logger(
-        #domain: String,
+        domain domain: String,
         level: Int,
         object: UIImage,
         fileName: String = __FILE__,
@@ -254,7 +254,7 @@ public final class MBLog
     }
     
     private class func logger<T>(
-        #domain: String,
+        domain domain: String,
         level: Int,
         object: T,
         fileName: String = __FILE__,
