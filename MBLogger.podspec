@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MBLogger"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "Logging tool made by Mobilette."
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
